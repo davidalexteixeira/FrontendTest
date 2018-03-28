@@ -1,0 +1,211 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+    border: 0.5px solid lightgray;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px lightgrey;
+  }
+  
+  
+  /* ---- typography ---- */
+  
+  body {
+    color: #111;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 147%;
+    
+  }
+  
+  h1 {
+      text-align: center;
+  }
+
+  h2 {}
+  
+  h3 {
+ 
+  }
+  
+  p {
+    margin: 0;
+  }
+
+  li {
+    margin-right: 40px;
+  }
+  
+  
+  /* ---- layout ---- */
+  
+  .search-container {
+    margin-left: 40px;
+    margin-top: 20px;
+    max-width: 400px;
+  }
+  
+  #search-button {
+    background: #F1E4F3;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    padding: 5px;
+  }
+  
+  #input {
+    width: 337px;
+    border-radius: 2px;
+    border: 1px solid lightgrey;
+    padding: 5px;
+  }
+  
+  #site-header {
+    padding: 30px 0;
+    color: white;
+    background: #111;
+  }
+  
+  #site-footer {
+    color: white;
+    padding: 60px 0;
+    background: #111;
+  }
+  
+  #site-main {
+    margin-bottom: 60px;
+  }
+  
+  .container {
+    margin: 0 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  #user, #repos{
+    list-style: none;
+  }
+  
+  #repos li {
+    border-bottom: 1px solid lightgrey;
+    max-width: 400px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  #repos {
+    overflow-y: scroll;
+    max-height: 200px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+  
+  /* scroll bar*/
+  #repos::-webkit-scrollbar {
+    width: 8px;
+    background: black;
+    border-radius: 3px;
+    
+  }
+  
+  /* Handle */
+  #repos::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 3px;;
+    background: lightgrey;
+    border: 1px solid white;
+  }
+  
+  .star-image {
+    height: 34px;
+    width: auto;
+    margin-right: -15px;
+    float: right;
+    padding-bottom: 10px;
+  }
+
+  .fork-image {
+    height: 34px;
+    width: auto;
+    margin-right: 5px;
+    margin-left: -5px;
+    float: right;
+    padding-bottom: 10px;
+  }
+ 
+  #user {
+    max-width: 400px;
+  }
+  
+  #user li{
+    max-width: 400px;
+    margin: 5px 0px 0px 110px;
+  }
+
+  #user-image {
+    height: 100px;
+    width: auto;
+    border-radius: 10px;
+    float: left;
+  }
+
+  #repositories-heading {
+    margin-left: 40px;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    max-width: 400px;
+  }
+
+  .name-span {
+    font-weight: bold;
+    font-size: 32px;
+  }
+  
+  .numbers {
+    float: right;
+    font-size: 15px;
+    margin-right: 10px;
+  }
+  
+  
+  #results {
+      text-align: left;
+  }
+  
+  #user-not-found {
+    margin-left: 40px;
+    margin-bottom: 30px;
+    border: 1px solid red;
+    max-width: 400px;
+    border-radius: 3px;
+    background: indianred;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 728px;
+      margin: 0 auto;
+    }
+  }
+  
+  
+  
+  
+  

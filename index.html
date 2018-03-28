@@ -3,9 +3,19 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Hello!</title>
+    <link href="./index.css" rel="stylesheet">
 </head>
 <body>
-
-<h1>Hello!</h1>
+<div class='search-container'>
+  <input id='input' type='text' placeholder="Search username...">
+  <button id='search-button'>Search</button>
+</div>
+<div id='results'> 
+  <ul id='user'></ul>
+  <h3 id='repositories'></h3>
+  <ul id='repos'></ul>
+</div>
 </body>
+<script src="./helpers.js"></script>
+<script src="./index.js"></script>
 </html>

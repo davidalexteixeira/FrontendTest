@@ -1,3 +1,4 @@
+
 module.exports = {
         "extends": "standard",
         "env": {
@@ -8,8 +9,10 @@ module.exports = {
           "document": false,
           "window": false,
           "console": false,
-          "fetch": false
+          "fetch": false,
+          "handleClick": false
         },
+
         "rules": {
           "indent": [
             2,
@@ -18,6 +21,9 @@ module.exports = {
           "semi": [
             "error",
             "always"
-          ]
+          ],
+          // comment out to see unused error for separating files - all functions are being used
+          "no-unused-vars": 0,
+          "no-undef": 0
         }
 };
